@@ -11,6 +11,7 @@ func (h *Hello) SayHello() string {
 	return "Hello World!"
 }
 
+// Create new Hello
 func New() IHello {
 	return &Hello{}
 }
