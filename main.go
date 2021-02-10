@@ -10,3 +10,7 @@ type IHello interface {
 func (h *Hello) SayHello() string {
 	return "Hello World!"
 }
+
+func New() IHello {
+	return &Hello{}
+}
